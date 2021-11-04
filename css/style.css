@@ -1,0 +1,54 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700|Poppins:700');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+
+/* Fontawesome */
+@import url('https://use.fontawesome.com/releases/v5.6.3/css/all.css');
+@import url("components/button.css");
+@import url("components/card.css");
+@import url("components/footer.css");
+
+/* Utilities */
+body {
+  margin: 0;
+  font-family: 'Quicksand';
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Quicksand';
+}
+
+h1 {
+  font-size: 40px;
+}
+
+p {
+  color: rgb(140, 140, 140);
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Custom design below! */
+.banner {
+  background-image: url("../images/background.png");
+  height: 520px;
+  display: flex;
+  align-items: center;
+}
+
+.container {
+  width: 900px;
+  margin: 0 auto;
+}
+
+.container h2 {
+  text-align: center;
+}
+.banner .container {
+  width: 900px;
+  color: white;
+  margin: 0 auto;
+}
